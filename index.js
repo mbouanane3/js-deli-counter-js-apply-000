@@ -5,6 +5,14 @@ function takeANumber(katzDeliLine, name) {
   katzDeliLine.push(name);
   return "Welcome, " + name + ". You are number " + katzDeliLine.length + " in line.";
 }
+var count = 1;
+function takeNumberTwo(count) {
+  count += 1 
+  console.log( 'welcome you are ' + count) 
+}
+
+
+takeNumberTwo(count)
 
 function nowServing(katzDeliLine) {
   if (katzDeliLine.length === 0) {
